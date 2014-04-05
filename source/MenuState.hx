@@ -22,7 +22,7 @@ class MenuState extends FlxState
 		FlxG.camera.bgColor = 0xffb8c4d9;
 
 		add(new FlxText(30,FlxG.height/2 - 140,640,"quadrobounce2",60));
-		add(new FlxText(40,FlxG.height/2,640,"SPACE to start",20));
+		add(new FlxText(40,FlxG.height/2,640,"SPACE to start dude",20));
 		add(new FlxText(40,FlxG.height/2+30,640,"ARROWS or WASD to move",20));
 		add(new FlxText(40,FlxG.height/2+60,640,"Keep the ball on the screen",20));
 	}
