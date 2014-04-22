@@ -19,7 +19,7 @@ class MenuState extends FlxState
 	{
 		super.create();
 
-		FlxG.camera.bgColor = 0xff187424;
+		FlxG.camera.bgColor = 0xff27bf3b;
 
 		add(new FlxText(30,FlxG.height/2 - 140,640,"quadrobounce2",60));
 		add(new FlxText(40,FlxG.height/2,640,"SPACE to start",20));
